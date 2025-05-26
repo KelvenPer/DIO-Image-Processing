@@ -1,5 +1,5 @@
 [project]
-name = "poetry add opencv-python numpy pillow"
+name = "dio_image_processing"
 version = "0.1.0"
 description = "A simple image processing package for combining images."
 authors = [
@@ -9,6 +9,10 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "numpy (>=2.2.6,<3.0.0)",
+    "pillow (>=11.2.1,<12.0.0)",
+    "ultralytics (>=8.3.145,<9.0.0)"
 ]
 
 
