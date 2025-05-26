@@ -1,0 +1,17 @@
+[project]
+name = "poetry add opencv-python numpy pillow"
+version = "0.1.0"
+description = "A simple image processing package for combining images."
+authors = [
+    {name = "Kelven Silva",email = "kelvenpersilva@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
